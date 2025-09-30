@@ -1,0 +1,33 @@
+#table {
+    display: flex;
+    justify-content: center;
+}
+
+#root img {
+    display: block;
+    margin: 30px auto;
+}
+
+.head {
+    display: block;
+    margin: 0 auto;
+}
+
+.column p {
+    font-family: "Helvetica", sans-serif;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+}
+
+.column {
+    height: 50px;
+    width: 80px;
+    border: 1px black solid;
+    padding: 50px 50px 50px 50px;
+    margin: 4px 2px 4px 2px;
+    background-color: #f4f2f4;
+    cursor: pointer;
+}
