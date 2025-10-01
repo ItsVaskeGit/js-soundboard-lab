@@ -23,11 +23,14 @@
 }
 
 .column {
+    display: flex;
     height: 50px;
     width: 80px;
     border: 1px black solid;
     padding: 50px 50px 50px 50px;
     margin: 4px 2px 4px 2px;
+    align-items: center;
+    justify-content: center;
     background-color: #f4f2f4;
     cursor: pointer;
 }
