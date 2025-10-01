@@ -14,7 +14,7 @@ buttons.forEach((button) => {
         // button.style.backgroundColor = "white";
         label.style.color = "white";
         button.style.backgroundImage = "url(../images/head.gif)";
-        button.style.backgroundSize = "cover";
+        button.style.backgroundSize = "contain";
     });
     button.addEventListener("mouseout", () => {
         let label = button.getElementsByTagName("p")[0];
